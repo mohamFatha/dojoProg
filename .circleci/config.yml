@@ -22,6 +22,10 @@ jobs:
             - node_modules
           key: v1-dependencies-{{ checksum "package.json" }}
 
+      - run:
+          name: security audit
+          command: npm audit
+
       # run tests!
       - run: npm run test
       - run: npm run build

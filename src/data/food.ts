@@ -29,7 +29,7 @@ export const FOOD_ITEMS: Array<FoodItem> = [
     imageUrl: California
   },
   {
-    name: "Boeuf Fromage",
+    name: "Boeuf",
     kcal: 175,
     imageUrl: BeefCheese
   },
@@ -39,7 +39,7 @@ export const FOOD_ITEMS: Array<FoodItem> = [
     imageUrl: Miso
   },
   {
-    name: "Viande",
+    name: "Brochette Viande",
     kcal: 130,
     imageUrl: Meat
   }
